@@ -1,4 +1,4 @@
-# Ai-Trsl — Realtime Translator Frontend (static)
+# Ai-Trsl — Realtime Translator Frontend (static)1
 
 This is a minimal Vite + React frontend prepared for GitHub Pages.
 It includes a UI component for Daily (WebRTC) embedding, language selection,
