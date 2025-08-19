@@ -26,9 +26,9 @@ jobs:
         run: npm run build
 
       - name: Upload artifact for GitHub Pages
-        uses: actions/upload-pages-artifact@v1   # ✅ правильно для Pages
+        uses: actions/upload-pages-artifact@v1   # ✅ вместо upload-artifact
         with:
-          path: ./dist
+          path: ./dist   # папка с билдом Vite
 
   deploy:
     runs-on: ubuntu-latest
